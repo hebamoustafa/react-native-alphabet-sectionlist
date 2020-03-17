@@ -94,7 +94,7 @@ export default class RightSectionList extends Component {
         /> :
         <View
           style={styles.item}>
-          <Text style={{ color: '#7F48FB' }}>{title}</Text>
+          <Text style={{ color: '#7F48FB', fontSize: 12, fontWeight: '500' }}>{title}</Text>
         </View>;
 
         return (
